@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <!-- الخلفية (السماء) -->
+  <rect width="800" height="500" fill="#dcebe6" />
+  
+  <!-- الشمس -->
+  <circle cx="650" cy="110" r="65" fill="#f3be7a" />
+  
+  <!-- أرضية الملعب -->
+  <polygon points="0,310 800,235 800,500 0,500" fill="#5d8b7c" />
+  
+  <!-- خطوط الملعب -->
+  <line x1="0" y1="365" x2="800" y2="280" stroke="#f7f5f0" stroke-width="8" />
+  <line x1="400" y1="322" x2="400" y2="500" stroke="#f7f5f0" stroke-width="8" />
+  <ellipse cx="400" cy="390" rx="110" ry="62" fill="none" stroke="#f7f5f0" stroke-width="8" />
+
+  <!-- ظل اللاعب والكرة -->
+  <ellipse cx="395" cy="375" rx="75" ry="14" fill="#476e61" />
+  <ellipse cx="555" cy="392" rx="32" ry="8" fill="#476e61" />
+
+  <!-- جسم اللاعب الرياضي (أشكال واضحة ومتناسقة) -->
+  <!-- الساق اليسرى (الارتكاز) -->
+  <line x1="385" y1="265" x2="345" y2="365" stroke="#173b54" stroke-width="26" stroke-linecap="round" />
+  <line x1="345" y1="365" x2="370" y2="368" stroke="#e69c56" stroke-width="16" stroke-linecap="round" />
+
+  <!-- الساق اليمنى (ركل الكرة) -->
+  <line x1="410" y1="265" x2="485" y2="310" stroke="#173b54" stroke-width="26" stroke-linecap="round" />
+  <line x1="485" y1="310" x2="515" y2="290" stroke="#e69c56" stroke-width="16" stroke-linecap="round" />
+
+  <!-- الجذع (القميص الرياضي) -->
+  <path d="M365,175 L430,175 L420,275 L375,275 Z" fill="#173b54" />
+  <rect x="375" y="205" width="45" height="14" fill="#e69c56" />
+
+  <!-- الذراع اليسرى -->
+  <line x1="370" y1="185" x2="315" y2="235" stroke="#173b54" stroke-width="20" stroke-linecap="round" />
+  <circle cx="310" cy="240" r="10" fill="#efb075" />
+
+  <!-- الذراع اليمنى -->
+  <line x1="425" y1="185" x2="475" y2="220" stroke="#173b54" stroke-width="20" stroke-linecap="round" />
+  <circle cx="480" cy="224" r="10" fill="#efb075" />
+
+  <!-- الرأس -->
+  <circle cx="400" cy="130" r="32" fill="#efb075" />
+  <!-- ربطة الرأس الرياضية -->
+  <path d="M369,122 Q400,112 431,122" fill="none" stroke="#e69c56" stroke-width="10" />
+
+  <!-- كرة القدم -->
+  <circle cx="555" cy="345" r="36" fill="#f7f5f0" stroke="#173b54" stroke-width="7" />
+  <polygon points="555,327 571,338 565,357 545,357 539,338" fill="#173b54" />
+  <line x1="555" y1="327" x2="555" y2="309" stroke="#173b54" stroke-width="5" />
+  <line x1="571" y1="338" x2="588" y2="332" stroke="#173b54" stroke-width="5" />
+  <line x1="565" y1="357" x2="577" y2="372" stroke="#173b54" stroke-width="5" />
+  <line x1="545" y1="357" x2="533" y2="372" stroke="#173b54" stroke-width="5" />
+  <line x1="539" y1="338" x2="522" y2="332" stroke="#173b54" stroke-width="5" />
+</svg>
