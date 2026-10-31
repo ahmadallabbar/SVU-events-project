@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الرئيسية | دليل فعاليات الجامعة الافتراضية</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="home">
+<header class="site-header">
+  <div class="container header-inner d-flex align-items-center justify-content-between flex-wrap gap-3">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo.png" alt="شعار دليل الفعاليات">
+      <span>دليل الفعاليات<small>الجامعة الافتراضية السورية</small></span>
+    </a>
+    <button class="nav-toggle" id="menuToggle" type="button" aria-label="فتح القائمة" aria-expanded="false">☰ القائمة</button>
+    <nav class="main-nav navbar" id="mainNav">
+      <a class="active" href="index.html">الرئيسية</a>
+      <a href="events.html">كل الفعاليات</a>
+      <a href="about.html">عن الدليل</a>
+      <a href="contact.html">اتصل بنا</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-panel">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <div class="hero-copy">
+              <span class="hero-label">مساحة واحدة لكل الأنشطة</span>
+              <h1>اكتشف فعالياتك القادمة، وكن جزءاً من التجربة.</h1>
+              <p>من اللقاءات الثقافية إلى الأنشطة الرياضية وورش العمل، تصفّح فعاليات الجامعة الافتراضية واختر ما يناسب اهتماماتك.</p>
+              <div class="d-flex flex-wrap gap-2">
+                <a class="btn btn-primary" href="events.html">استكشف الفعاليات</a>
+                <a class="btn btn-outline-light" href="about.html">تعرّف على الدليل</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-art"><img src="assets/img/culture.svg" alt="رسم توضيحي لفعالية ثقافية"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section pt-3">
+    <div class="container">
+      <div class="section-heading">
+        <div><span class="eyebrow">لا تفوّت الفرصة</span><h2>فعاليات بارزة هذا الأسبوع</h2></div>
+        <a class="btn-link-clean" href="events.html">عرض جميع الفعاليات ←</a>
+      </div>
+      <div class="slider-wrap">
+        <div id="featuredSlider" class="featured-content" aria-live="polite"></div>
+        <div class="slider-controls">
+          <button id="previousSlide" type="button" aria-label="الفعالية السابقة">→</button>
+          <button id="nextSlide" type="button" aria-label="الفعالية التالية">←</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section pt-3">
+    <div class="container">
+      <div class="section-heading">
+        <div><span class="eyebrow">اختر ما تحب</span><h2>تصفّح حسب التصنيف</h2></div>
+        <p>ابدأ من اهتمامك واكتشف الأنشطة القريبة منه.</p>
+      </div>
+      <div class="category-pills">
+        <a href="events.html?category=ثقافة"><span class="category-dot"></span>ثقافة</a>
+        <a href="events.html?category=رياضة"><span class="category-dot"></span>رياضة</a>
+        <a href="events.html?category=موسيقى"><span class="category-dot"></span>موسيقى</a>
+        <a href="events.html?category=ورش عمل"><span class="category-dot"></span>ورش عمل</a>
+        <a href="events.html?category=عائلي"><span class="category-dot"></span>عائلي</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section pt-3">
+    <div class="container">
+      <div class="section-heading">
+        <div><span class="eyebrow">أُضيفت مؤخراً</span><h2>أحدث الفعاليات</h2></div>
+        <a class="btn-link-clean" href="events.html">كل الفعاليات ←</a>
+      </div>
+      <div class="row g-4" id="latestEvents"></div>
+    </div>
+  </section>
+
+  <section class="page-section pt-3">
+    <div class="container">
+      <div class="section-heading"><div><span class="eyebrow">فريق المشروع</span><h2>الطلاب المشاركون</h2></div></div>
+      <div class="team-panel">
+        <div class="row g-3">
+          <div class="col-sm-6 col-lg-3"><div class="team-member"><strong>محمود عبد الخليل العزيز</strong><small>ID:203526</small></div></div>
+          <div class="col-sm-6 col-lg-3"><div class="team-member"><strong>سوزان احمد قاسم</strong><small>ID:303090</small></div></div>
+          <div class="col-sm-6 col-lg-3"><div class="team-member"><strong>احمد علاء العبار</strong><small>ID:362834</small></div></div>
+          <div class="col-sm-6 col-lg-3"><div class="team-member"><strong>ملاك يوسف مرعي</strong><small>ID:346867</small></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-5">
+        <h3>دليل فعاليات الجامعة الافتراضية</h3>
+        <p>مساحة بسيطة تجمع الأنشطة والفعاليات الطلابية في مكان واحد، لتسهيل اكتشافها والمشاركة فيها.</p>
+      </div>
+      <div class="col-md-3">
+        <h3>روابط سريعة</h3>
+        <p><a href="events.html">جميع الفعاليات</a></p>
+        <p><a href="about.html">عن الدليل</a></p>
+        <p><a href="contact.html">اتصل بنا</a></p>
+      </div>
+      <div class="col-md-4">
+        <h3>التواصل</h3>
+        <p>البريد: <a href="mailto:events@example.com">events@example.com</a></p>
+        <p>تابع أخبار الأنشطة عبر قنوات الجامعة الرسمية.</p>
+      </div>
+    </div>
+    <div class="footer-bottom d-flex justify-content-between flex-wrap gap-2">
+      <span>© 2026 دليل فعاليات الجامعة الافتراضية</span>
+      <span>مشروع طلابي تجريبي - جميع البيانات المعروضة نموذجية</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
